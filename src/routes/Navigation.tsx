@@ -32,9 +32,9 @@ export const Navigation = () => {
                         {
                             routes.map(({ path, Component }) => (
                                 <Route 
-                                key={ path } 
-                                path={ path } 
-                                element={ <Component/> } 
+                                    key={ path } 
+                                    path={ path } 
+                                    element={ <Component/> } 
                                 />
                                 ))
                             }
