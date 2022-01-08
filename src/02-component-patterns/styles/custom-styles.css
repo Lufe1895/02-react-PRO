@@ -24,3 +24,9 @@
 .custom-buttons div {
     border-color: white;
 }
+
+.shopping-card {
+    position: fixed;
+    right: 0px;
+    top: 0px;
+}
