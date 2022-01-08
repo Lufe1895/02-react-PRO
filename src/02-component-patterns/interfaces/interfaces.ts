@@ -11,6 +11,7 @@ export interface ProductCardProps {
     style?: React.CSSProperties,
     onChange?:(args:onChangeArgs) => void,
     value?:number,
+    initialValues?:InitialValues,
 }
 
 export interface Product {
@@ -39,4 +40,9 @@ export interface onChangeArgs {
 
 export interface ProductInCart extends Product {
     count:number
+}
+
+export interface InitialValues {
+    count?:number;
+    maxCount?:number;
 }
